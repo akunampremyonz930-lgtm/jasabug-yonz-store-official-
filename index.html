@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YONZ STORE OFFICIAL - Jasa Bug WhatsApp</title>
+    <style>
+        /* Keyframes untuk animasi berdenyut (pulsing) */
+        @keyframes pulse {
+            0% {
+                opacity: 1;
+                text-shadow: 0 0 5px rgba(255, 51, 51, 0.7);
+            }
+            50% {
+                opacity: 0.8;
+                text-shadow: 0 0 10px rgba(255, 51, 51, 1);
+            }
+            100% {
+                opacity: 1;
+                text-shadow: 0 0 5px rgba(255, 51, 51, 0.7);
+            }
+        }
+
+        /* Gaya umum */
+        body {
+            font-family: sans-serif;
+            background-color: #1a1a1a; /* Latar belakang gelap */
+            color: white;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        /* Header */
+        .header {
+            width: 100%;
+            background-color: #333;
+            padding: 10px 0;
+            text-align: center;
+            font-size: 1.2em;
+            color: #ff3333; /* Warna merah untuk teks header */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .header-text {
+            /* Menetapkan animasi berdenyut pada teks */
+            animation: pulse 1.5s infinite ease-in-out;
+            margin: 0 5px;
+            font-weight: bold;
+        }
+        
+        .header span {
+            color: #fff; /* Warna ikon agar tidak terpengaruh animasi */
+            margin: 0 5px;
+        }
+
+        /* Konten utama */
+        .container {
+            width: 90%;
+            max-width: 400px;
+            margin-top: 20px;
+            padding: 15px;
+            background-color: #330000; /* Warna dasar merah gelap untuk tabel */
+            border-radius: 10px;
+        }
+
+        /* Tabel */
+        .table-container {
+            width: 100%;
+            background-color: #330000; /* Warna merah gelap untuk container tabel */
+            border-collapse: collapse;
+            border-radius: 10px;
+            overflow: hidden; 
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            color: white;
+        }
+
+        th, td {
+            padding: 12px 15px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #cc0000; 
+            font-weight: bold;
+            font-size: 1.1em;
+            text-align: center;
+        }
+
+        td:first-child {
+            background-color: #4d0000; 
+        }
+        td:last-child {
+            background-color: #4d0000; 
+            text-align: right;
+            font-weight: bold;
+            color: #ff9999; 
+        }
+
+        tr:nth-child(even) td:first-child,
+        tr:nth-child(even) td:last-child {
+            background-color: #660000; 
+        }
+
+        /* Catatan */
+        .catatan {
+            text-align: center;
+            margin: 20px 0;
+            font-size: 0.9em;
+            padding: 10px;
+            border-radius: 5px;
+            line-height: 1.5;
+        }
+
+        /* Tombol */
+        .button-group {
+            width: 90%;
+            max-width: 400px;
+            margin: 20px 0 40px 0;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .button {
+            display: block;
+            text-align: center;
+            padding: 15px 20px;
+            border-radius: 10px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.1em;
+            color: white;
+            transition: background-color 0.3s;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .button.primary {
+            background-color: #ff3333; 
+            box-shadow: 0 4px 0 #cc0000; 
+        }
+
+        .button.primary:hover {
+            background-color: #cc0000;
+        }
+
+        .button.payment {
+            background-color: #ffaa00; 
+            box-shadow: 0 4px 0 #cc8800;
+        }
+
+        .button.payment:hover {
+            background-color: #cc8800;
+        }
+
+        /* Ikon */
+        .icon {
+            font-size: 1.2em;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <span>⚙️</span> <span class="header-text">YONZ STORE OFFICIAL</span> <span>⚙️</span>
+    </div>
+
+    <div class="container table-container">
+        <table>
+            <thead>
+                <tr>
+                    <th style="width: 50%;">Jasa Bug WhatsApp</th>
+                    <th style="width: 50%;">Harga</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Force Close</td>
+                    <td>Rp 2.000</td>
+                </tr>
+                <tr>
+                    <td>Crash</td>
+                    <td>Rp 2.000</td>
+                </tr>
+                <tr>
+                    <td>Crash UI Sistem</td>
+                    <td>Rp 5.000</td>
+                </tr>
+                <tr>
+                    <td>Crash iOS iPhone</td>
+                    <td>Rp 5.000</td>
+                </tr>
+                <tr>
+                    <td>Santet Nomor</td>
+                    <td>Rp 3.000</td>
+                </tr>
+                <tr>
+                    <td>Delay Hard</td>
+                    <td>Rp 3.000</td>
+                </tr>
+                <tr>
+                    <td>Invisible Hard</td>
+                    <td>Rp 4.000</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="container catatan-container" style="background-color: transparent;">
+        <div class="catatan">
+            **Catatan:**<br>
+            Jika Nomor Utama Admin C1,<br>
+            Berarti Sedang Terblokir Pihak Whatsapp,<br>
+            Maka Chat Saja Nomor Kedua.
+        </div>
+    </div>
+
+    <div class="button-group">
+        <a href="https://wa.me/6281210560845" class="button primary">
+            <span class="icon">📞</span> NOMOR UTAMA
+        </a>
+        <a href="https://wa.me/6285361384443" class="button primary">
+            <span class="icon">📞</span> NOMOR KEDUA
+        </a>
+        <a href="https://payment-yonz-store-official.vercel.app/" class="button payment">
+            <span class="icon">💳</span> PAYMENT ADMIN
+        </a>
+    </div>
+
+</body>
+</html>
